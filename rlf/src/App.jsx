@@ -2,11 +2,13 @@ import "./App.css";
 import ToDo from "./TODOAPP/ToDo";
 
 const App = () => {
+  const todolist = null
+
   return (
     <>
       <center>
         <div className="container">
-          <ToDo />
+          <ToDo todolist={todolist}/>
         </div>
       </center>
     </>
