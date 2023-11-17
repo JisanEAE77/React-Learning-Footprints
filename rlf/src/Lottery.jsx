@@ -4,7 +4,7 @@ const Lottery = (props) => {
 
     return (
         <>
-            <h2>Winner {props.no}: Lottery No - {Math.floor(random)}</h2>
+            <h2 className={props.color}>Winner {props.no}: Lottery No - {Math.floor(random)}</h2>
         </>
     )
 }

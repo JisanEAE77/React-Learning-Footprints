@@ -3,7 +3,7 @@ import './Button.css'
 const Button = () => {
     return (
         <>
-            <button className="button">Randomly Choosing Winners</button>
+            <button className="button mt-2 mb-4">Randomly Choosing Winners</button>
         </>
     )
 }

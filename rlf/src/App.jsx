@@ -7,11 +7,11 @@ const App = () => {
     <>
     <h1>Lottery Winners!</h1>
     <Button></Button>
-    <Lottery no='1'></Lottery>
-    <Lottery no='2'></Lottery>
-    <Lottery no='3'></Lottery>
-    <Lottery no='4'></Lottery>
-    <Lottery no='5'></Lottery>
+    <Lottery color="text-success" no='1'></Lottery>
+    <Lottery color="text-primary" no='2'></Lottery>
+    <Lottery color="text-info" no='3'></Lottery>
+    <Lottery color="text-warning" no='4'></Lottery>
+    <Lottery color="text-danger" no='5'></Lottery>
     </>
   )
 }
