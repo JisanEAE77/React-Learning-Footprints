@@ -1,4 +1,4 @@
-const Lottery = (props) => {
+const LotteryList = (props) => {
 
     let random = Math.random() * 200;
 
@@ -9,4 +9,4 @@ const Lottery = (props) => {
     )
 }
 
-export default Lottery;
+export default LotteryList;
