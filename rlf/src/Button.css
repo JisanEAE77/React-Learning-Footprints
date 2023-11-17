@@ -1,0 +1,14 @@
+.button {
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+    padding: 7px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.button:hover {
+    background-color: aquamarine;
+}
+
