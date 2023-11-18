@@ -1,7 +1,8 @@
 import Display from "./Display"
+import ButtonSet from "./ButtonSet"
 
 const Calculator = () => {
-    buttons = [
+    const buttons = [
         ['C', 1, 2],
         ['+', 3, 4],
         ['-', 5, 6],
@@ -11,10 +12,11 @@ const Calculator = () => {
     ]
     return (
         <>
+        <h1>Calculator</h1>
         <Display />
         <ButtonSet rows={buttons} />
         </>
     )
 }
 
-export default Calculator,
+export default Calculator;

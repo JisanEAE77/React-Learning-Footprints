@@ -1,7 +1,9 @@
+import css from './Display.module.css'
+
 const Display = () => {
     return (
         <>
-            <input type="text" />
+            <input type="text" readOnly className={`${css.display}`} />
         </>
     )
 }
