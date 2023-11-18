@@ -1,10 +1,10 @@
 import "./App.css";
-import Calculator from "./Calculator/Calculator";
+import ToDo from './TODOAPP/ToDo'
 
 const App = () => {
   return (
     <>
-      <Calculator />
+      <ToDo />
     </>
   )
 };

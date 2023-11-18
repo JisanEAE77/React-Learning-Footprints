@@ -1,8 +1,25 @@
 .tbutton {
-    min-width: 80px;
+    min-width: 120px;
+    background-color: brown !important;
+    border-radius: 5px;
+    outline: none;
+    border: 2px dashed black;
+}
+
+.tbutton:hover {
+    background-color: rgb(217, 21, 21) !important;
 }
 
 .tinput {
     width: 100%;   
-    
+    background-color: brown;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 2px dashed black;
+    outline: none;
+}
+
+.tinput::placeholder {
+    color: white;
 }
