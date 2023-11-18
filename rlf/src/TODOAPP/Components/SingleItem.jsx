@@ -1,10 +1,9 @@
-import css from "./SingleItem.module.css"
+import css from "./SingleItem.module.css";
 
 const SingleItem = (props) => {
-
   const handleDelete = () => {
-    props.onDelete(props.index)
-  }
+    props.onDelete(props.index);
+  };
   return (
     <>
       <div className={`row my-3 ${css.lrow}`}>
@@ -15,8 +14,10 @@ const SingleItem = (props) => {
           {props.date}
         </div>
         <div className="col-2">
-          <button onClick={handleDelete} className=
-          {`btn btn-danger px-4 ${css.tbutton}`}>
+          <button
+            onClick={handleDelete}
+            className={`btn btn-danger px-4 ${css.tbutton}`}
+          >
             DELETE
           </button>
         </div>
