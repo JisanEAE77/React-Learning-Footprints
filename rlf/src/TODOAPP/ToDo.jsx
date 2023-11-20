@@ -4,7 +4,7 @@ import AppName from "./Components/AppName";
 import NullCheck from "./Components/NullCheck";
 import { useState } from "react";
 
-const ToDo = ({ todolist }) => {
+const ToDo = () => {
   const [toDoList, setToDoList] = useState([]);
   const [isInputEmpty, setIsInputEmpty] = useState(null);
 
