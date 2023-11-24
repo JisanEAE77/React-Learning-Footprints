@@ -1,10 +1,10 @@
 import "./App.css";
-import ToDo from "./TODOAPP/ToDo";
+import SocialMedia from "./SocialMedia/SocialMedia";
 
 const App = () => {
   return (
     <>
-      <ToDo />
+      <SocialMedia />
     </>
   );
 };
